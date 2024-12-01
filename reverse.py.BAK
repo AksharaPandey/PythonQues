@@ -1,0 +1,7 @@
+number=int(input("Enter the number:"))
+rev_number=0
+while(number>0):
+    remainder=number%10
+    rev_number= (rev_number*10)+remainder
+    number//=10
+    print("The number is {}".format(rev_number))
